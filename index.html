@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+      <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="./style.css">
+            <title>Movie-Booking</title>
+      </head>
+
+      <body>
+            <h1>Online Movie Booking</h1>
+            <section class="movie-container">
+                  <header>
+                        <select id="select-movie">
+                              <option value="">Select a Movie</option>
+                              <option value="4000">King of Boys (N4,000)</option>
+                              <option value="3500">The Most Wanted (N3,500)</option>
+                              <option value="5000">Rebirth of the Lost King (N5,000)</option>
+                              <option value="3000">Laughing Gas (N3,000)</option>
+                        </select>
+
+                        <ul class="movie-showcase">
+                              <li>
+                                    <div class="seat one"></div>
+                                    <small>N/A</small>
+                              </li>
+                              <li>
+                                    <div class="seat selected"></div>
+                                    <small>Selected</small>
+                              </li>
+                              <li>
+                                    <div class="seat occupied"></div>
+                                    <small>Occupied</small>
+                              </li>
+                        </ul>
+                  </header>
+
+                  <main class="selection-container">
+                        <div class="screen"></div>
+
+                        <div class="rows">
+                              <div class="seat"></div>
+                              <div class="seat"></div>
+                              <div class="seat"></div>
+                              <div class="seat"></div>
+                              <div class="seat"></div>
+                              <div class="seat"></div>
+                              <div class="seat"></div>
+                              <div class="seat"></div>
+                        </div>
+
+                        <div class="rows">
+                              <div class="seat"></div>
+                              <div class="seat"></div>
+                              <div class="seat"></div>
+                              <div class="seat occupied"></div>
+                              <div class="seat occupied"></div>
+                              <div class="seat"></div>
+                              <div class="seat"></div>
+                              <div class="seat"></div>
+                        </div>
+
+                        <div class="rows">
+                              <div class="seat"></div>
+                              <div class="seat"></div>
+                              <div class="seat"></div>
+                              <div class="seat"></div>
+                              <div class="seat"></div>
+                              <div class="seat"></div>
+                              <div class="seat occupied"></div>
+                              <div class="seat occupied"></div>
+                        </div>
+
+                        <div class="rows">
+                              <div class="seat"></div>
+                              <div class="seat"></div>
+                              <div class="seat"></div>
+                              <div class="seat"></div>
+                              <div class="seat"></div>
+                              <div class="seat"></div>
+                              <div class="seat"></div>
+                              <div class="seat"></div>
+                        </div>
+
+                        <div class="rows">
+                              <div class="seat"></div>
+                              <div class="seat"></div>
+                              <div class="seat"></div>
+                              <div class="seat occupied"></div>
+                              <div class="seat occupied"></div>
+                              <div class="seat"></div>
+                              <div class="seat"></div>
+                              <div class="seat"></div>
+                        </div>
+
+                        <div class="rows">
+                              <div class="seat"></div>
+                              <div class="seat"></div>
+                              <div class="seat"></div>
+                              <div class="seat"></div>
+                              <div class="seat occupied"></div>
+                              <div class="seat occupied"></div>
+                              <div class="seat occupied"></div>
+                              <div class="seat"></div>
+                        </div>
+                  </main>
+
+                  <aside>
+                        <p class="text">You have selected <span class="count">0</span> seats <br /> The
+                              total amount is N<span class="total">0</span></p>
+                  </aside>
+
+            </section>
+
+            <footer>
+                  <small>Movie-Booking © 2022</small>
+            </footer>
+
+            <script src="./app.js"></script>
+      </body>
+
+</html>
